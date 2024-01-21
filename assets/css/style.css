@@ -9,10 +9,15 @@ body {
     margin: 0;
 }
 
+img {
+    width: 70%;
+    height: auto;
+    padding: 0;
+}
+
 /* Header */
 
 header {
-    height: 17rem;
     padding: 3rem;
     text-align: center;
     background: linear-gradient(to top, rgba(197, 231, 240, 1) 0%, 50%, rgba(138, 203, 221, 1) 100%);    ;
@@ -20,6 +25,54 @@ header {
 }
 
 header h1 {
-    font-size: 5rem;
+    margin-top: 25%;
+    font-size: 6rem;
     font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/* Sections */
+
+.row {
+    display: flex;
+}
+
+.column-left {
+    flex: 50%;
+}
+
+.column-right {
+    flex: 50%;
+}
+
+
+
+/* Responsive layouts */
+
+/* For screens less than 1200px */
+
+@media screen and (max-width: 1200px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* For screens less than 620px */
+
+@media screen and (max-width: 620px) {
+
+    body {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
 }
