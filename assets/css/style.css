@@ -62,9 +62,22 @@ header h1 {
 /* About Me */
 
 #about-me {
-    padding: 10rem;
+    padding: 3rem 10rem 3rem 10rem;
     background: linear-gradient(to bottom, rgba(197, 231, 240, 1) 0%, 50%, rgba(138, 203, 221, 1) 100%);
     color: #035376;
+}
+
+/* Gap */
+
+#gap {
+    padding: 0rem;
+    background:rgba(138, 203, 221, 1);
+}
+
+.gap-img {
+    width: 20%;
+    height: auto;
+    padding-left: 40%;
 }
 
 /* Services */
