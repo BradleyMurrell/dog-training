@@ -15,6 +15,20 @@ img {
     padding: 0;
 }
 
+/* Sections */
+
+.row {
+    display: flex;
+}
+
+.column-left {
+    flex: 50%;
+}
+
+.column-right {
+    flex: 50%;
+}
+
 /* Header */
 
 header {
@@ -30,20 +44,6 @@ header h1 {
     font-size: 6rem;
     transform: rotate(350deg);
     font-family: 'Mochiy Pop P One', sans-serif;
-}
-
-/* Sections */
-
-.row {
-    display: flex;
-}
-
-.column-left {
-    flex: 50%;
-}
-
-.column-right {
-    flex: 50%;
 }
 
 /* About Me */
@@ -75,7 +75,7 @@ header h1 {
 /* Services */
 
 #services {
-    padding: 10rem;
+    padding: 5rem 10rem 5rem 10rem;
     background: linear-gradient(to top, rgba(173, 204, 134, 1) 0%, 50%, rgba(117, 178, 118, 1) 100%);
     color: #154001;
 }
@@ -96,8 +96,14 @@ header h1 {
 
 #contact {
     padding: 3rem 10rem 3rem 10rem;
+    text-align: left;
     background: linear-gradient(to bottom, rgba(173, 204, 134, 1) 0%, 50%, rgba(117, 178, 118, 1) 100%);
     color: #154001;
+}
+
+.column-contact-left {
+    flex: 50%;
+    padding: 3rem 10rem 3rem 10rem;
 }
 
 
