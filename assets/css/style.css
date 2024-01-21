@@ -44,10 +44,12 @@ header h1 {
     flex: 50%;
 }
 
-/* About Us */
+/* About Me */
 
 #about-me {
-    background: linear-gradient(to top, rgba(197, 231, 240, 1) 0%, 50%, rgba(138, 203, 221, 1) 100%);    ;
+    padding: 10rem;
+    background: linear-gradient(to top, rgba(197, 231, 240, 1) 0%, 50%, rgba(138, 203, 221, 1) 100%);
+    color: #035376;
 }
 
 
