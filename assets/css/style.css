@@ -117,6 +117,38 @@ header h1 {
     .row {
         flex-direction: column;
     }
+
+    header h1 {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    /* About Me */
+
+    #about-me {
+        text-align: center;
+    }
+
+    /* Services */
+
+    #services {
+        padding: 2rem;
+    }
+
+    .service-img {
+        width: 50%;
+    }
+
+    /* Contact */
+
+    #contact {
+        text-align: center;
+    }
+
+    .column-contact-left {
+        padding: 2rem;
+    }
+
 }
 
 /* For screens less than 620px */
@@ -126,13 +158,6 @@ header h1 {
     body {
         font-size: 1rem;
         text-align: center;
-    }
-
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
     }
 
     header h1 {
