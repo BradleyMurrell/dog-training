@@ -118,6 +118,8 @@ header h1 {
         flex-direction: column;
     }
 
+    /* Header */
+
     header h1 {
         margin-top: 10%;
         margin-left: 5%;
@@ -160,7 +162,32 @@ header h1 {
         text-align: center;
     }
 
+    /* Header */
+
+    header {
+        padding: .5rem;
+    }
+
     header h1 {
         font-size: 3.5rem;
     }
+
+    /* About Me */
+
+    #about-me {
+        padding: 1rem;
+    }
+
+    /* Services */
+
+    #services {
+        padding: 1rem;
+    }
+
+    /* Contact */
+
+    #contact {
+        padding: 1rem;
+    }
+
 }
