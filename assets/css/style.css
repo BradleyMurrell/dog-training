@@ -89,10 +89,6 @@ header h1 {
     border-radius: 1rem;
 }
 
-.service-img {
-    width: 100%;
-}
-
 /* Contact */
 
 #contact {
@@ -135,10 +131,6 @@ header h1 {
 
     #services {
         padding: 2rem;
-    }
-
-    .service-img {
-        width: 50%;
     }
 
     /* Contact */
